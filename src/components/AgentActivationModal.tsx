@@ -120,7 +120,7 @@ export const AgentActivationModal: React.FC<AgentActivationModalProps> = ({
                         className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-md z-50 pointer-events-none"
                     >
                         {/* Inner box that receives pointer events */}
-                        <div className="bg-davos-primary border border-white/10 rounded-2xl p-8 shadow-2xl relative overflow-hidden pointer-events-auto shadow-[0_20px_60px_-15px_rgba(56,189,248,0.2)]">
+                        <div className="bg-davos-primary border border-white/10 rounded-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden pointer-events-auto shadow-[0_20px_60px_-15px_rgba(56,189,248,0.2)]">
 
                             <button
                                 onClick={onClose}

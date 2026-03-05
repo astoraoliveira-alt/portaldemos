@@ -71,7 +71,7 @@ export const CallSimulation: React.FC<CallSimulationProps> = ({ isOpen, agent, o
                                 />
                             )}
 
-                            <div className="w-40 h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-full flex items-center justify-center p-[2px] shadow-2xl relative z-10 overflow-hidden">
+                            <div className="w-32 h-32 sm:w-40 sm:h-40 bg-gradient-to-b from-gray-800 to-gray-900 rounded-full flex items-center justify-center p-[2px] shadow-2xl relative z-10 overflow-hidden">
                                 <div
                                     className="w-full h-full bg-davos-bg rounded-full bg-cover bg-center border border-white/5"
                                     style={{ backgroundImage: `url(${agent.image})` }}
@@ -79,10 +79,10 @@ export const CallSimulation: React.FC<CallSimulationProps> = ({ isOpen, agent, o
                             </div>
                         </motion.div>
 
-                        <h2 className="text-3xl font-bold mt-8 mb-2 tracking-tight text-white text-center">
+                        <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-2 tracking-tight text-white text-center">
                             {agent.name}
                         </h2>
-                        <p className="text-gray-500 font-light flex items-center space-x-2">
+                        <p className="text-sm sm:text-base text-gray-500 font-light flex items-center space-x-2">
                             {callState === 'calling' ? (
                                 <>
                                     <span className="text-emerald-400 font-medium">Iniciando chamada...</span>

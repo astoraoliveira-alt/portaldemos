@@ -81,13 +81,13 @@ export const HeroExperience: React.FC = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="space-y-6"
+                    className="space-y-6 px-4"
                 >
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-100 to-gray-500 drop-shadow-xl">
+                    <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-100 to-gray-500 drop-shadow-xl">
                         Converse com Agentes de Voz de IA
                     </h1>
 
-                    <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto tracking-wide">
+                    <p className="text-lg sm:text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto tracking-wide">
                         Escolha um cenário real e receba uma ligação da nossa inteligência em <span className="text-davos-accent font-medium glow-text">segundos.</span>
                     </p>
                 </motion.div>
