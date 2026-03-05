@@ -1,4 +1,4 @@
-export type AgentId = 'd5b203bf-c1af-4aa6-bac9-b13ab84f9a71' | 'c74c2543-29be-43f1-b399-c12636593096' | 'UTILITIES_FATURAS' | 'f0137689-cfa0-4dda-9e13-77c925d05d7d';
+export type AgentId = 'd5b203bf-c1af-4aa6-bac9-b13ab84f9a71' | 'c74c2543-29be-43f1-b399-c12636593096' | '36a66e30-533b-4b61-ab57-e79c23543bbd' | 'f0137689-cfa0-4dda-9e13-77c925d05d7d';
 
 export interface Agent {
     id: AgentId;
@@ -21,7 +21,7 @@ export const agents: Agent[] = [
         image: '/images/rh_acolhimento.png'
     },
     {
-        id: 'UTILITIES_FATURAS',
+        id: '36a66e30-533b-4b61-ab57-e79c23543bbd',
         name: 'Utilities – Faturas e Contas',
         description: 'Explicação automática de contas e faturas.',
         image: '/images/utilities_faturas.png'
