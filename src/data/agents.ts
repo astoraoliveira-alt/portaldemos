@@ -22,9 +22,9 @@ export const agents: Agent[] = [
     },
     {
         id: '36a66e30-533b-4b61-ab57-e79c23543bbd',
-        name: 'Utilities – Faturas e Contas',
-        description: 'Explicação automática de contas e faturas.',
-        image: '/images/utilities_faturas.png'
+        name: 'Saneamento – Atendimento',
+        description: 'Agendamento automático de manutenções e suporte.',
+        image: '/images/saneamento.png'
     },
     {
         id: 'f0137689-cfa0-4dda-9e13-77c925d05d7d',
