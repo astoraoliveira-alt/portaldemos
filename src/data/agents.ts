@@ -1,4 +1,4 @@
-export type AgentId = 'd5b203bf-c1af-4aa6-bac9-b13ab84f9a71' | 'RH_ACOLHIMENTO' | 'UTILITIES_FATURAS' | 'f0137689-cfa0-4dda-9e13-77c925d05d7d';
+export type AgentId = 'd5b203bf-c1af-4aa6-bac9-b13ab84f9a71' | 'c74c2543-29be-43f1-b399-c12636593096' | 'UTILITIES_FATURAS' | 'f0137689-cfa0-4dda-9e13-77c925d05d7d';
 
 export interface Agent {
     id: AgentId;
@@ -15,7 +15,7 @@ export const agents: Agent[] = [
         image: '/images/rh_onboarding.png'
     },
     {
-        id: 'RH_ACOLHIMENTO',
+        id: 'c74c2543-29be-43f1-b399-c12636593096',
         name: 'RH – Acolhimento',
         description: 'Acompanhamento humanizado de colaboradores.',
         image: '/images/rh_acolhimento.png'
