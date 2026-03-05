@@ -28,8 +28,8 @@ export const agents: Agent[] = [
     },
     {
         id: 'f0137689-cfa0-4dda-9e13-77c925d05d7d',
-        name: 'Cobrança',
-        description: 'Recuperação de crédito com abordagem inteligente.',
-        image: '/images/cobranca.png'
+        name: 'Financeiro – Opções de Crédito',
+        description: 'Crédito sob medida para as necessidades do seu negócio.',
+        image: '/images/credito.png'
     }
 ];
